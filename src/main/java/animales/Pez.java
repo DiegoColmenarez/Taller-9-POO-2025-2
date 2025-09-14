@@ -2,6 +2,7 @@ package animales;
 
 public class Pez extends Animal {
     protected String tipoAgua;
+    // super.especie = null; innecesario
     public Pez(String especie, String tipoAgua){
         super(especie);
         this.tipoAgua = tipoAgua;
